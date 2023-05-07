@@ -4,12 +4,14 @@ Module Program
     Sub Main(args As String())
         Dim a As Double
         Dim b As Double
+        Dim kq As Double
         Console.WriteLine("Chuong trinh cong 2 so")
         Console.Write("Nhap a: ")
         a = Double.Parse(Console.ReadLine())
         Console.Write("Nhap b: ")
         b = Double.Parse(Console.ReadLine())
-        Console.WriteLine("Tong 2 so la: " & (a + b))
-        Console.ReadLine()
+        kq = a + b
+        Dim str As String = String.Format("Ket qua chuong trinh la {0} + {1} = {2}", a, b, kq)
+        Console.WriteLine(str)
     End Sub
 End Module
