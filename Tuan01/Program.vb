@@ -14,24 +14,26 @@ Module Program
         'Dim str As String = String.Format("Ket qua chuong trinh la {0} + {1} = {2}", a, b, kq)
         'Console.WriteLine(str)
 
-        Dim a As Double
-        Dim b As Double
-        Dim kq As String
-        Console.WriteLine("Chuong trinh gia phuong trinh ax + b = 0")
-        Console.Write("Nhap a: ")
-        a = Double.Parse(Console.ReadLine())
-        Console.Write("Nhap b: ")
-        b = Double.Parse(Console.ReadLine())
+        'Dim a As Double
+        'Dim b As Double
+        'Dim kq As String
+        'Console.WriteLine("Chuong trinh gia phuong trinh ax + b = 0")
+        'Console.Write("Nhap a: ")
+        'a = Double.Parse(Console.ReadLine())
+        'Console.Write("Nhap b: ")
+        'b = Double.Parse(Console.ReadLine())
 
-        If a = 0 Then
-            If b = 0 Then
-                kq = String.Format("Phuong trinh co vo so nghiem")
-            Else
-                kq = String.Format("Phuong trinh vo nghiem")
-            End If
-        Else
-            kq = String.Format("Phuong trinh co 1 nghiem x = {0}", -b / a)
-        End If
-        Console.WriteLine(kq)
+        'If a = 0 Then
+        '    If b = 0 Then
+        '        kq = String.Format("Phuong trinh co vo so nghiem")
+        '    Else
+        '        kq = String.Format("Phuong trinh vo nghiem")
+        '    End If
+        'Else
+        '    kq = String.Format("Phuong trinh co 1 nghiem x = {0}", -b / a)
+        'End If
+        'Console.WriteLine(kq)
+
+
     End Sub
 End Module
