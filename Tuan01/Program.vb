@@ -34,6 +34,25 @@ Module Program
         'End If
         'Console.WriteLine(kq)
 
+        Dim n As Integer
+        Dim kq As Long
+        Console.WriteLine("Chuong trinh tinh giai thua")
+        Console.Write("Nhap n: ")
+        n = Integer.Parse(Console.ReadLine())
+
+        kq = 1
+        Dim i As Integer = 1
+        While i <= n
+            kq *= i
+            i += 1
+        End While
+
+        kq = 1
+        For j As Integer = 1 To n
+            kq *= j
+        Next
+
+        Console.WriteLine("Giai thua cua {0} la {1}", n, kq)
 
     End Sub
 End Module

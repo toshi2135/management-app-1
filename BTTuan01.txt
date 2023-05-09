@@ -1,0 +1,6 @@
+BTLT
+1. Giai phuong trinh ax + b = 0
+2. Giai phuong trinh ax^2 + bx + c = 0
+3. Nhap n. Tinh tong cac so tu 1 den n
+4. Nhap n. Tinh tong cac so le tu 1 den n
+5. Nhap n. Tinh tong cac so chia het cho 3 tu 1 den n
