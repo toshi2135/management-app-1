@@ -1,4 +1,7 @@
-﻿ Sub: Ham khong co gia tri tra ve
+﻿Khong nhap/xuat ben trong ham
+Khong chuyen ve chuoi
+
+Sub: Ham khong co gia tri tra ve
 Function: Ham co gia tri tra ve
 Tham so:
 - Tham bien: byref
