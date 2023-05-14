@@ -1,0 +1,10 @@
+﻿ Sub: Ham khong co gia tri tra ve
+Function: Ham co gia tri tra ve
+Tham so:
+- Tham bien: byref
+- Tham tri: byval
+
+Vi du:
+- Ham tinh tong 2 so a, b
+
+- Ham hoan vi 2 so a, b
