@@ -2,36 +2,20 @@ Imports System
 
 Module Program
     Sub Main(args As String())
-        Console.WriteLine("Chuong trinh giai phuong trinh bac 1")
-        Console.Write("Nhap a: ")
-        Dim a As Double = Double.Parse(Console.ReadLine())
-        Console.Write("Nhap b: ")
-        Dim b As Double = Double.Parse(Console.ReadLine())
-        Dim nghiem As Double
-        Dim SoNghiem As Integer = GiaiPTB1(a, b, nghiem)
-        If SoNghiem = -1 Then
-            Console.WriteLine("Phuong trinh co vo so nghiem")
-        ElseIf SoNghiem = 0 Then
-            Console.WriteLine("Phuong trinh vo nghiem")
-        Else
-            Console.WriteLine("Phuong trinh co 1 nghiem x = {0}", nghiem)
-        End If
+        Dim dsSoNguyen As Integer()
+        Dim n As Integer
+        Console.WriteLine("Chuong trinh nhap vao danh sach so nguyen va tinh ra ket qua")
+        Console.Write("Nhap so luong phan tu: ")
+        n = Integer.Parse(Console.ReadLine())
+        ReDim dsSoNguyen(n - 1) 'Khai bao mang co n phan tu (tu 0 den n-1)
+        For i As Integer = 0 To n - 1
+            Console.Write("Nhap phan tu thu {0}: ", i + 1)
+            dsSoNguyen(i) = Integer.Parse(Console.ReadLine())
+        Next
 
+        Console.Write("Mang co {0} phan tu: ", dsSoNguyen.Length)
+        For i As Integer = 0 To dsSoNguyen.Length - 1
+            Console.Write("{0} ", dsSoNguyen(i))
+        Next
     End Sub
-
-    Function GiaiPTB1(ByVal a As Double, ByVal b As Double, ByRef nghiem As Double) As Integer
-        Dim SoNghiem As Integer
-        If a = 0 Then
-            If b = 0 Then
-                SoNghiem = -1 'Vo so nghiem
-            Else
-                SoNghiem = 0 'Vo nghiem
-            End If
-        Else
-            SoNghiem = 1 'Co 1 nghiem
-            nghiem = -b / a
-        End If
-        Return SoNghiem
-    End Function
-
 End Module
