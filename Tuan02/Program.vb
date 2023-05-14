@@ -19,4 +19,5 @@ Module Program
         End If
         Return SoNghiem
     End Function
+
 End Module
