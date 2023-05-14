@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Tuan02", "Tuan02.vbproj", "{20DE8199-8877-4ADC-A0D9-F4FEAC458D46}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BTLTTuan02-XuLyDanhSachSoNguyen", "..\BTLTTuan02-XuLyDanhSachSoNguyen\BTLTTuan02-XuLyDanhSachSoNguyen.vbproj", "{C99CBC00-24D9-4279-84CC-361056290411}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{20DE8199-8877-4ADC-A0D9-F4FEAC458D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20DE8199-8877-4ADC-A0D9-F4FEAC458D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20DE8199-8877-4ADC-A0D9-F4FEAC458D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99CBC00-24D9-4279-84CC-361056290411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99CBC00-24D9-4279-84CC-361056290411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99CBC00-24D9-4279-84CC-361056290411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99CBC00-24D9-4279-84CC-361056290411}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
