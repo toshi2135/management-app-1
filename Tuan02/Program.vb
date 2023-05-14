@@ -20,7 +20,7 @@ Module Program
 
         Console.Write("Nhap them so luong phan tu: ")
         n = Integer.Parse(Console.ReadLine())
-        ReDim dsSoNguyen(dsSoNguyen.Length + n - 1)
+        ReDim Preserve dsSoNguyen(dsSoNguyen.Length + n - 1)
         For i As Integer = dsSoNguyen.Length - n To dsSoNguyen.Length - 1
             Console.Write("Nhap phan tu thu {0}: ", i + 1)
             dsSoNguyen(i) = Integer.Parse(Console.ReadLine())
