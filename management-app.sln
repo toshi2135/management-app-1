@@ -17,6 +17,10 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Tuan03-WinForm-ListBox", "T
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Tuan04&05-DemoCSDL", "Tuan04-DemoCSDL\Tuan04&05-DemoCSDL.vbproj", "{0FA7AB99-9DF4-4AFB-BD96-4C4B4B4A7DCF}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Tuan06&07-NguoiDung-Menu", "Tuan06-NguoiDung\Tuan06&07-NguoiDung-Menu.vbproj", "{68125ACF-9532-4988-863F-CA16735D63EE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Tuan08-QuanLyDonHang", "Tuan08-QuanLyDonHang\Tuan08-QuanLyDonHang.vbproj", "{78305A4E-9F64-4F21-90A2-08BAD8A0590E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{0FA7AB99-9DF4-4AFB-BD96-4C4B4B4A7DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FA7AB99-9DF4-4AFB-BD96-4C4B4B4A7DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FA7AB99-9DF4-4AFB-BD96-4C4B4B4A7DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68125ACF-9532-4988-863F-CA16735D63EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68125ACF-9532-4988-863F-CA16735D63EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68125ACF-9532-4988-863F-CA16735D63EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68125ACF-9532-4988-863F-CA16735D63EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78305A4E-9F64-4F21-90A2-08BAD8A0590E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78305A4E-9F64-4F21-90A2-08BAD8A0590E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78305A4E-9F64-4F21-90A2-08BAD8A0590E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78305A4E-9F64-4F21-90A2-08BAD8A0590E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
