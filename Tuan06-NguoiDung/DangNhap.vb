@@ -9,8 +9,11 @@ Public Class frmDangNhap
         Dim dr As DialogResult = frm.ShowDialog()
         If dr = DialogResult.Yes Then
             MessageBox.Show("Đăng nhập thành công")
+            account = frm.account
+
         Else
             MessageBox.Show("Đăng nhập thất bại")
+            Me.Close()
         End If
     End Sub
 
